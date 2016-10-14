@@ -1,7 +1,7 @@
 <nav>
   <ul>
-    <li><a href="{{site.baseurl}}/index.html" class="current">test</li>
-    <li><a href="{{site.baseurl}}/planet.html" class="current">planet</li>
-    <li><a href="{{site.baseurl}}/news.html" class="current">test</li>
+    <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %} current {% endif %}">test</li>
+    <li><a href="{{site.baseurl}}/planet.html">planet</li>
+    <li><a href="{{site.baseurl}}/news.html">test</li>
   </ul>
 </nav>
