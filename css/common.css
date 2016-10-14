@@ -8,3 +8,9 @@ html {
 h1 {
   color: red;
 }
+
+
+.current {
+  background-color: red;
+  color: white;
+}
