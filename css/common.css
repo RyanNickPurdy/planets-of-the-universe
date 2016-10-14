@@ -7,5 +7,9 @@ html {
 
 .current {
   background-color: red;
-  color: white;
+  color: purple;
+}
+
+.nav-top {
+  font-size: 1.125rem;
 }
